@@ -11,6 +11,7 @@
 *.userprefs
 
 # Build results
+# Tom comments out debug and bin folders which hold the database file
 #[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -68,6 +69,12 @@ artifacts/
 *.pidb
 *.svclog
 *.scc
+# Tom's additions
+*.exe
+*.dll
+*.exe.config
+*.jfm
+
 
 # Chutzpah Test files
 _Chutzpah*
